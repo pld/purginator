@@ -1,6 +1,6 @@
 # purginator
 
-`purginator` was designed to enabled dynamically throttled operations against a
+`purginator` was designed to enable dynamically throttled operations against a
 local or remote DynamoDB database. The initial use case was to purge several
 hundred thousand records from a DynamoDB database that was in production use,
 without exceeding provisioned write capacity.
